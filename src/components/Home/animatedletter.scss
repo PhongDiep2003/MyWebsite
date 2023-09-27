@@ -1,0 +1,43 @@
+$Time_To_Finish_Rendering_Greeting_Text: 3.1;
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.greeting__letter {
+  animation: fadeIn ease-in-out;
+  animation-fill-mode: both;
+  font-size: 5rem;
+  font-weight: 800;
+  color: var(--color-heading);
+
+}
+@for $i from 1 through 50 {
+  .greeting__letter._#{$i} {
+    animation-delay: #{($i / 10) + 1}s;
+  }
+}
+
+.intro__letter {
+  animation: fadeIn ease-in-out;
+  animation-fill-mode: both;
+  font-size: 1.5rem;
+  color: var(--color-body);
+}
+
+.text__container {
+  width: 70%;
+  margin-bottom: 2rem;
+}
+
+@for $i from 1 through 120 {
+  .intro__letter._#{$i} {
+    animation-delay: #{($i / 10) + $Time_To_Finish_Rendering_Greeting_Text}s;
+  }
+}
+

@@ -1,0 +1,707 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.greeting__letter {
+  animation: fadeIn ease-in-out;
+  animation-fill-mode: both;
+  font-size: 5rem;
+  font-weight: 800;
+  color: var(--color-heading);
+}
+
+.greeting__letter._1 {
+  animation-delay: 1.1s;
+}
+
+.greeting__letter._2 {
+  animation-delay: 1.2s;
+}
+
+.greeting__letter._3 {
+  animation-delay: 1.3s;
+}
+
+.greeting__letter._4 {
+  animation-delay: 1.4s;
+}
+
+.greeting__letter._5 {
+  animation-delay: 1.5s;
+}
+
+.greeting__letter._6 {
+  animation-delay: 1.6s;
+}
+
+.greeting__letter._7 {
+  animation-delay: 1.7s;
+}
+
+.greeting__letter._8 {
+  animation-delay: 1.8s;
+}
+
+.greeting__letter._9 {
+  animation-delay: 1.9s;
+}
+
+.greeting__letter._10 {
+  animation-delay: 2s;
+}
+
+.greeting__letter._11 {
+  animation-delay: 2.1s;
+}
+
+.greeting__letter._12 {
+  animation-delay: 2.2s;
+}
+
+.greeting__letter._13 {
+  animation-delay: 2.3s;
+}
+
+.greeting__letter._14 {
+  animation-delay: 2.4s;
+}
+
+.greeting__letter._15 {
+  animation-delay: 2.5s;
+}
+
+.greeting__letter._16 {
+  animation-delay: 2.6s;
+}
+
+.greeting__letter._17 {
+  animation-delay: 2.7s;
+}
+
+.greeting__letter._18 {
+  animation-delay: 2.8s;
+}
+
+.greeting__letter._19 {
+  animation-delay: 2.9s;
+}
+
+.greeting__letter._20 {
+  animation-delay: 3s;
+}
+
+.greeting__letter._21 {
+  animation-delay: 3.1s;
+}
+
+.greeting__letter._22 {
+  animation-delay: 3.2s;
+}
+
+.greeting__letter._23 {
+  animation-delay: 3.3s;
+}
+
+.greeting__letter._24 {
+  animation-delay: 3.4s;
+}
+
+.greeting__letter._25 {
+  animation-delay: 3.5s;
+}
+
+.greeting__letter._26 {
+  animation-delay: 3.6s;
+}
+
+.greeting__letter._27 {
+  animation-delay: 3.7s;
+}
+
+.greeting__letter._28 {
+  animation-delay: 3.8s;
+}
+
+.greeting__letter._29 {
+  animation-delay: 3.9s;
+}
+
+.greeting__letter._30 {
+  animation-delay: 4s;
+}
+
+.greeting__letter._31 {
+  animation-delay: 4.1s;
+}
+
+.greeting__letter._32 {
+  animation-delay: 4.2s;
+}
+
+.greeting__letter._33 {
+  animation-delay: 4.3s;
+}
+
+.greeting__letter._34 {
+  animation-delay: 4.4s;
+}
+
+.greeting__letter._35 {
+  animation-delay: 4.5s;
+}
+
+.greeting__letter._36 {
+  animation-delay: 4.6s;
+}
+
+.greeting__letter._37 {
+  animation-delay: 4.7s;
+}
+
+.greeting__letter._38 {
+  animation-delay: 4.8s;
+}
+
+.greeting__letter._39 {
+  animation-delay: 4.9s;
+}
+
+.greeting__letter._40 {
+  animation-delay: 5s;
+}
+
+.greeting__letter._41 {
+  animation-delay: 5.1s;
+}
+
+.greeting__letter._42 {
+  animation-delay: 5.2s;
+}
+
+.greeting__letter._43 {
+  animation-delay: 5.3s;
+}
+
+.greeting__letter._44 {
+  animation-delay: 5.4s;
+}
+
+.greeting__letter._45 {
+  animation-delay: 5.5s;
+}
+
+.greeting__letter._46 {
+  animation-delay: 5.6s;
+}
+
+.greeting__letter._47 {
+  animation-delay: 5.7s;
+}
+
+.greeting__letter._48 {
+  animation-delay: 5.8s;
+}
+
+.greeting__letter._49 {
+  animation-delay: 5.9s;
+}
+
+.greeting__letter._50 {
+  animation-delay: 6s;
+}
+
+.intro__letter {
+  animation: fadeIn ease-in-out;
+  animation-fill-mode: both;
+  font-size: 1.5rem;
+  color: var(--color-body);
+}
+
+.text__container {
+  width: 70%;
+  margin-bottom: 2rem;
+}
+
+.intro__letter._1 {
+  animation-delay: 3.2s;
+}
+
+.intro__letter._2 {
+  animation-delay: 3.3s;
+}
+
+.intro__letter._3 {
+  animation-delay: 3.4s;
+}
+
+.intro__letter._4 {
+  animation-delay: 3.5s;
+}
+
+.intro__letter._5 {
+  animation-delay: 3.6s;
+}
+
+.intro__letter._6 {
+  animation-delay: 3.7s;
+}
+
+.intro__letter._7 {
+  animation-delay: 3.8s;
+}
+
+.intro__letter._8 {
+  animation-delay: 3.9s;
+}
+
+.intro__letter._9 {
+  animation-delay: 4s;
+}
+
+.intro__letter._10 {
+  animation-delay: 4.1s;
+}
+
+.intro__letter._11 {
+  animation-delay: 4.2s;
+}
+
+.intro__letter._12 {
+  animation-delay: 4.3s;
+}
+
+.intro__letter._13 {
+  animation-delay: 4.4s;
+}
+
+.intro__letter._14 {
+  animation-delay: 4.5s;
+}
+
+.intro__letter._15 {
+  animation-delay: 4.6s;
+}
+
+.intro__letter._16 {
+  animation-delay: 4.7s;
+}
+
+.intro__letter._17 {
+  animation-delay: 4.8s;
+}
+
+.intro__letter._18 {
+  animation-delay: 4.9s;
+}
+
+.intro__letter._19 {
+  animation-delay: 5s;
+}
+
+.intro__letter._20 {
+  animation-delay: 5.1s;
+}
+
+.intro__letter._21 {
+  animation-delay: 5.2s;
+}
+
+.intro__letter._22 {
+  animation-delay: 5.3s;
+}
+
+.intro__letter._23 {
+  animation-delay: 5.4s;
+}
+
+.intro__letter._24 {
+  animation-delay: 5.5s;
+}
+
+.intro__letter._25 {
+  animation-delay: 5.6s;
+}
+
+.intro__letter._26 {
+  animation-delay: 5.7s;
+}
+
+.intro__letter._27 {
+  animation-delay: 5.8s;
+}
+
+.intro__letter._28 {
+  animation-delay: 5.9s;
+}
+
+.intro__letter._29 {
+  animation-delay: 6s;
+}
+
+.intro__letter._30 {
+  animation-delay: 6.1s;
+}
+
+.intro__letter._31 {
+  animation-delay: 6.2s;
+}
+
+.intro__letter._32 {
+  animation-delay: 6.3s;
+}
+
+.intro__letter._33 {
+  animation-delay: 6.4s;
+}
+
+.intro__letter._34 {
+  animation-delay: 6.5s;
+}
+
+.intro__letter._35 {
+  animation-delay: 6.6s;
+}
+
+.intro__letter._36 {
+  animation-delay: 6.7s;
+}
+
+.intro__letter._37 {
+  animation-delay: 6.8s;
+}
+
+.intro__letter._38 {
+  animation-delay: 6.9s;
+}
+
+.intro__letter._39 {
+  animation-delay: 7s;
+}
+
+.intro__letter._40 {
+  animation-delay: 7.1s;
+}
+
+.intro__letter._41 {
+  animation-delay: 7.2s;
+}
+
+.intro__letter._42 {
+  animation-delay: 7.3s;
+}
+
+.intro__letter._43 {
+  animation-delay: 7.4s;
+}
+
+.intro__letter._44 {
+  animation-delay: 7.5s;
+}
+
+.intro__letter._45 {
+  animation-delay: 7.6s;
+}
+
+.intro__letter._46 {
+  animation-delay: 7.7s;
+}
+
+.intro__letter._47 {
+  animation-delay: 7.8s;
+}
+
+.intro__letter._48 {
+  animation-delay: 7.9s;
+}
+
+.intro__letter._49 {
+  animation-delay: 8s;
+}
+
+.intro__letter._50 {
+  animation-delay: 8.1s;
+}
+
+.intro__letter._51 {
+  animation-delay: 8.2s;
+}
+
+.intro__letter._52 {
+  animation-delay: 8.3s;
+}
+
+.intro__letter._53 {
+  animation-delay: 8.4s;
+}
+
+.intro__letter._54 {
+  animation-delay: 8.5s;
+}
+
+.intro__letter._55 {
+  animation-delay: 8.6s;
+}
+
+.intro__letter._56 {
+  animation-delay: 8.7s;
+}
+
+.intro__letter._57 {
+  animation-delay: 8.8s;
+}
+
+.intro__letter._58 {
+  animation-delay: 8.9s;
+}
+
+.intro__letter._59 {
+  animation-delay: 9s;
+}
+
+.intro__letter._60 {
+  animation-delay: 9.1s;
+}
+
+.intro__letter._61 {
+  animation-delay: 9.2s;
+}
+
+.intro__letter._62 {
+  animation-delay: 9.3s;
+}
+
+.intro__letter._63 {
+  animation-delay: 9.4s;
+}
+
+.intro__letter._64 {
+  animation-delay: 9.5s;
+}
+
+.intro__letter._65 {
+  animation-delay: 9.6s;
+}
+
+.intro__letter._66 {
+  animation-delay: 9.7s;
+}
+
+.intro__letter._67 {
+  animation-delay: 9.8s;
+}
+
+.intro__letter._68 {
+  animation-delay: 9.9s;
+}
+
+.intro__letter._69 {
+  animation-delay: 10s;
+}
+
+.intro__letter._70 {
+  animation-delay: 10.1s;
+}
+
+.intro__letter._71 {
+  animation-delay: 10.2s;
+}
+
+.intro__letter._72 {
+  animation-delay: 10.3s;
+}
+
+.intro__letter._73 {
+  animation-delay: 10.4s;
+}
+
+.intro__letter._74 {
+  animation-delay: 10.5s;
+}
+
+.intro__letter._75 {
+  animation-delay: 10.6s;
+}
+
+.intro__letter._76 {
+  animation-delay: 10.7s;
+}
+
+.intro__letter._77 {
+  animation-delay: 10.8s;
+}
+
+.intro__letter._78 {
+  animation-delay: 10.9s;
+}
+
+.intro__letter._79 {
+  animation-delay: 11s;
+}
+
+.intro__letter._80 {
+  animation-delay: 11.1s;
+}
+
+.intro__letter._81 {
+  animation-delay: 11.2s;
+}
+
+.intro__letter._82 {
+  animation-delay: 11.3s;
+}
+
+.intro__letter._83 {
+  animation-delay: 11.4s;
+}
+
+.intro__letter._84 {
+  animation-delay: 11.5s;
+}
+
+.intro__letter._85 {
+  animation-delay: 11.6s;
+}
+
+.intro__letter._86 {
+  animation-delay: 11.7s;
+}
+
+.intro__letter._87 {
+  animation-delay: 11.8s;
+}
+
+.intro__letter._88 {
+  animation-delay: 11.9s;
+}
+
+.intro__letter._89 {
+  animation-delay: 12s;
+}
+
+.intro__letter._90 {
+  animation-delay: 12.1s;
+}
+
+.intro__letter._91 {
+  animation-delay: 12.2s;
+}
+
+.intro__letter._92 {
+  animation-delay: 12.3s;
+}
+
+.intro__letter._93 {
+  animation-delay: 12.4s;
+}
+
+.intro__letter._94 {
+  animation-delay: 12.5s;
+}
+
+.intro__letter._95 {
+  animation-delay: 12.6s;
+}
+
+.intro__letter._96 {
+  animation-delay: 12.7s;
+}
+
+.intro__letter._97 {
+  animation-delay: 12.8s;
+}
+
+.intro__letter._98 {
+  animation-delay: 12.9s;
+}
+
+.intro__letter._99 {
+  animation-delay: 13s;
+}
+
+.intro__letter._100 {
+  animation-delay: 13.1s;
+}
+
+.intro__letter._101 {
+  animation-delay: 13.2s;
+}
+
+.intro__letter._102 {
+  animation-delay: 13.3s;
+}
+
+.intro__letter._103 {
+  animation-delay: 13.4s;
+}
+
+.intro__letter._104 {
+  animation-delay: 13.5s;
+}
+
+.intro__letter._105 {
+  animation-delay: 13.6s;
+}
+
+.intro__letter._106 {
+  animation-delay: 13.7s;
+}
+
+.intro__letter._107 {
+  animation-delay: 13.8s;
+}
+
+.intro__letter._108 {
+  animation-delay: 13.9s;
+}
+
+.intro__letter._109 {
+  animation-delay: 14s;
+}
+
+.intro__letter._110 {
+  animation-delay: 14.1s;
+}
+
+.intro__letter._111 {
+  animation-delay: 14.2s;
+}
+
+.intro__letter._112 {
+  animation-delay: 14.3s;
+}
+
+.intro__letter._113 {
+  animation-delay: 14.4s;
+}
+
+.intro__letter._114 {
+  animation-delay: 14.5s;
+}
+
+.intro__letter._115 {
+  animation-delay: 14.6s;
+}
+
+.intro__letter._116 {
+  animation-delay: 14.7s;
+}
+
+.intro__letter._117 {
+  animation-delay: 14.8s;
+}
+
+.intro__letter._118 {
+  animation-delay: 14.9s;
+}
+
+.intro__letter._119 {
+  animation-delay: 15s;
+}
+
+.intro__letter._120 {
+  animation-delay: 15.1s;
+}/*# sourceMappingURL=animatedletter.css.map */
