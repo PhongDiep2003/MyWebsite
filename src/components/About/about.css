@@ -1,0 +1,24 @@
+.about__container {
+  height: 100vh;
+  display: grid;
+  overflow-y: scroll;
+  grid-template-rows: repeat(4, 100vh);
+  padding: 0 2rem
+}
+.fact {
+  background-color: aquamarine;
+  
+}
+.experience {
+  background-color: bisque;
+}
+.project {
+  background-color: blueviolet;
+}
+.skill {
+  background-color: brown;
+}
+h1 {
+  font-size: 4rem;
+  font-style: italic;
+}

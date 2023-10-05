@@ -1,0 +1,29 @@
+.fact__container {
+  display: grid;
+  grid-template-columns: repeat(2, 50vw);
+}
+
+.fun_fact_texts_section {
+  /* background-color: greenyellow ; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fun_fact_images_section {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll; 
+}
+
+.fun_fact_texts {
+  line-height: 50px;
+  width: 50%;
+  font-size: 1.2rem;
+}
+.fun_fact_img {
+  width: 25%;
+  height: 30%;
+  margin-top: 2rem;
+  
+}
