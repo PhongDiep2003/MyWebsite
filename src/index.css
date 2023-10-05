@@ -1,5 +1,10 @@
-.root {
+:root {
   --color-primary: #FFFFFF;
   --color-heading: #0F172A;
   --color-body: #4B5262;
+  --input-label: #344054;
+  --submit-button: #87CEFA;
+}
+*, ::before, ::after {
+  box-sizing: border-box;
 }
