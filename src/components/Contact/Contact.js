@@ -1,4 +1,4 @@
-import React, {useState, useRef} from 'react'
+import {useRef} from 'react'
 import './contact.css'
 import logo from '../../images/contact_me_memoji.png'
 import 'animate.css';
@@ -37,13 +37,13 @@ const Contact = () => {
                 {/* Email input field */}
                 <div className='section email_section'> 
                   <label htmlFor='email'>Email</label>
-                  <input className='email_input input' id='email' type={'email'} name="email"/>
+                  <input className='email_input input' id='email' type={'email'} name="email" placeholder='Enter your email'/>
                 </div>
 
                 {/* Message input field */}
                 <div className='section'> 
                   <label htmlFor='message'>Message</label>
-                  <textarea className='message_input input' placeholder='Type me something' inputMode='text' id='message' name="message"/>
+                  <textarea className='message_input' placeholder='Type me something...' inputMode='text' id='message' name="message"/>
                 </div>
                 <button className='submit_button' type='submit'>Send message</button>
          

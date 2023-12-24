@@ -13,7 +13,26 @@
   font-weight: 800;
   color: white;
 }
-
+.intro__letter {
+  animation: fadeIn ease-in-out;
+  animation-fill-mode: both;
+  font-size: 1.5rem;
+  color: white;
+}
+.text__container {
+  width: 70%;
+  margin-bottom: 2rem;
+}
+@media screen and (min-width: 800px) and (max-width: 1400px) {
+  .greeting__letter {
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .greeting__letter {
+    font-size: 2.5rem;
+  }
+}
 .greeting__letter._1 {
   animation-delay: 1.1s;
 }
@@ -212,18 +231,6 @@
 
 .greeting__letter._50 {
   animation-delay: 6s;
-}
-
-.intro__letter {
-  animation: fadeIn ease-in-out;
-  animation-fill-mode: both;
-  font-size: 1.5rem;
-  color: white;
-}
-
-.text__container {
-  width: 70%;
-  margin-bottom: 2rem;
 }
 
 .intro__letter._1 {

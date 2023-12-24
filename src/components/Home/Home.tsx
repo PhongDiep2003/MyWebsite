@@ -1,6 +1,5 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import './home.css'
-import SoccerBall from '../../images/realMadridBall.png'
 import AnimatedLetters from './AnimatedLetters'
 const Home = () => {
   const [greetingClass, setGreetingClass] = useState<string>('greeting__letter')
@@ -9,8 +8,6 @@ const Home = () => {
   const intro = "Hello, I'm Phong, an aspiring software engineer with a passion for innovative technology and problem-solving.".split('')
   return (
     <div className='home__container'>
-        {/* <img src={SoccerBall} alt='Logo' className='logo'/> */}
-
         <div className='modal'>
             <AnimatedLetters letterClass={greetingClass} letters={greeting}/>
             <AnimatedLetters letterClass={introClass} letters={intro}/>

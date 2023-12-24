@@ -1,6 +1,5 @@
 .fact__container {
   display: flex;
-  grid-template-columns: repeat(2, 50vw); 
   align-items: center;
   flex-direction: column;
 }
@@ -14,4 +13,37 @@
   line-height: 50px;
   width: 30%;
   font-size: 1.2rem;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1400px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .fact__container:hover {
+    transform: scale(1.02);
+    transition: transform 0.1s ease-in;
+  }
+  .fun_fact_texts {
+    line-height: 50px;
+    width: 40%;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 2.3rem;
+    /* margin-right: 100px; */
+    transform: translate(-30%); 
+  }
+  .fact__container:hover {
+    transform: scale(1);
+  }
+  .fun_fact_texts {
+    line-height: 40px;
+    width: 100%;
+    font-size: 1rem;
+    transform: translate(-20px);
+  }
+  
 }

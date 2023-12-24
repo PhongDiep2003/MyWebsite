@@ -8,5 +8,14 @@
   width: 50%;
   border-width: 1px;
   border-style: solid;
-  border-color: gra
+  border-color: gray
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .dividedLine {
+    width: 70%;
+    
+  }
 }

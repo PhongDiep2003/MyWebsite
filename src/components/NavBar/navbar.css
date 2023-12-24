@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
-
 .navBar {
   height: 10vh;
   background-color: #EABE90;
@@ -7,7 +6,6 @@
   justify-content: flex-end;
   align-items: center;
 }
-
 .nav__group {
   margin-right: 10vw;
   display: inline-flex;
@@ -17,8 +15,6 @@
   height: 100%;
   align-items: center;
 }
-
-
 .nav__item {
   text-decoration: none;
   font-size: 1.3rem;
@@ -26,13 +22,11 @@
   color: var(--color-heading);
   font-weight: 600;
 }
-
 .nav__item:hover {
   color: #374955;
   transform: scale(0.95);
   transition: transform 0.2s ease-out, color;
 }
-
 .nav__item:focus {
   background-color: #87cefa;
   border-radius: 50px;
@@ -40,72 +34,60 @@
   border-width: 1px;
   padding: 10px;
 }
-
 .undoFocusCss:focus {
   background-color: inherit;
   border-radius: 0;
   padding: 0;
   border-width: 0;
 }
-
 .addSpace {
   margin-right: 30px;
 }
-
 .contact_btn {
-  display: inline-flex;
+  display: flex;
   height: 50%;
   align-items: center;
-  width: 20%;
+  width: 8vw;
   justify-content: center;
   border-style: solid;
   border-color: #0F172A;
   border-radius: 8px;
   border-width: 2px;
 }
-
 .contact_btn:hover {
   transform: scale(0.95);
   background-color: #87cefa;
   transition: transform 0.2s ease-out, background-color;
 }
-
 .contact_btn:focus {
   background-color: #87cefa;
+}
+@media screen and (min-width: 800px) and (max-width: 1400px) {
+  
+  .nav__item {
+    font-size: 1.1rem;
+  }
 }
 @media screen and (max-width: 800px) {
   .navBar {
     width: 100vw;
     height: 40vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
   }
-
   .nav__group {
-  
-  display: inline-flex;
+  display: flex;
   width: 100%;
   flex-direction: column;
   justify-content: space-around;
   height: 100%;
   align-items: center;
+  margin: 0;
   }
-
   .contact_btn {
-  display: inline-flex;
   height: 12%;
-  align-items: center;
-  width: 25vw;
-  justify-content: center;
-  border-style: solid;
-  border-color: #0F172A;
-  border-radius: 8px;
-  border-width: 2px;
+  width: 20vw;
+  margin-right: 30px
 }
-
   .nav__item {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
 }
 }

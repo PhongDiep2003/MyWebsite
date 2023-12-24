@@ -15,7 +15,7 @@
   height: 50vh;
   display: flex;
   flex-wrap: wrap;
- 
+  padding: 20px;
   flex-direction: row;
   align-self: center;
   padding-left: 30px;
@@ -71,9 +71,6 @@
             transform: rotateY(180deg);
   }
 }
-
-
-
 .back__cover {
   display: flex;
   flex-direction: column;
@@ -82,6 +79,7 @@
   width: 100%;
   padding: 20px;
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .card__title {
@@ -90,4 +88,37 @@
 }
 .card__content {
   color: #fffafa;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1400px) {
+  .project__container:hover {
+    transform: scale(1);
+  }
+  .card__container {
+    width: 300px;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .project__container:hover {
+    transform: scale(1.01);
+  }
+  .project__box {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-self: center;
+    padding-left: 30px;
+    overflow-y: auto;
+    justify-content: space-around;
+   
+  }
+  .card__container {
+    width: 250px;
+    height: 350px;
+  }
+  
 }
