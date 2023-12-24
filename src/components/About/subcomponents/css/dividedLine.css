@@ -1,0 +1,12 @@
+.dividedLineContainer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dividedLine {
+  width: 50%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gra
+}

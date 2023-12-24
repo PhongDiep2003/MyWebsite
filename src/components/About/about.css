@@ -1,13 +1,14 @@
 .about__container {
   height: 100vh;
   display: grid;
-  overflow-y: scroll;
-  grid-template-rows: repeat(4, 100vh);
-  padding: 0 2rem
+  grid-template-rows: 80vh 5vh 80vh 5vh 80vh;
+  position: relative;
+  padding: 0 2rem;
 }
-.fact {
-  background-color: aquamarine;
-  
+
+.divideline {
+  position: absolute;
+  top: 80vh;
 }
 .experience {
   background-color: bisque;

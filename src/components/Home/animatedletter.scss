@@ -15,11 +15,12 @@ $Time_To_Finish_Rendering_Greeting_Text: 3.1;
   font-size: 5rem;
   font-weight: 800;
   color: var(--color-heading);
+  font-family: 'Roboto Mono', monospace;
 
 }
 @for $i from 1 through 50 {
   .greeting__letter._#{$i} {
-    animation-delay: #{($i / 10) + 1}s;
+    animation-delay: #{($i / 10) + 3}s;
   }
 }
 
@@ -28,6 +29,7 @@ $Time_To_Finish_Rendering_Greeting_Text: 3.1;
   animation-fill-mode: both;
   font-size: 1.5rem;
   color: var(--color-body);
+  font-family: 'Roboto Mono', monospace;
 }
 
 .text__container {

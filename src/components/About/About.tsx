@@ -1,13 +1,16 @@
-import React from 'react'
 import './about.css'
 import FactSection from './subcomponents/FactSection'
+import DividedLine from './subcomponents/DividedLine'
+import ProjectSection from './subcomponents/ProjectSection'
+import SkillSection from './subcomponents/SkillSection'
 const About = () => {
   return (
     <div className='about__container' >
         <FactSection/>
-        <div className='experience'></div>
-        <div className='project'></div>
-        <div className='skill'></div>
+        <DividedLine/>
+        <ProjectSection/>
+        <DividedLine/>
+        <SkillSection/>
     </div>
   )
 }

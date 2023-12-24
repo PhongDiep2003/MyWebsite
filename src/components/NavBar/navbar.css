@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 
 .navBar {
-  width: 100vw;
   height: 10vh;
-  /* background-color: dodgerblue; */
-  display: inline-flex;
+  background-color: #EABE90;
+  display: flex;
   justify-content: flex-end;
   align-items: center;
 }
@@ -12,7 +11,7 @@
 .nav__group {
   margin-right: 10vw;
   display: inline-flex;
-  width: 20%;
+  width: 30%;
   flex-direction: row;
   justify-content: space-around;
   height: 100%;
@@ -22,17 +21,42 @@
 
 .nav__item {
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-family: 'Inter', sans-serif;
   color: var(--color-heading);
   font-weight: 600;
+}
+
+.nav__item:hover {
+  color: #374955;
+  transform: scale(0.95);
+  transition: transform 0.2s ease-out, color;
+}
+
+.nav__item:focus {
+  background-color: #87cefa;
+  border-radius: 50px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+}
+
+.undoFocusCss:focus {
+  background-color: inherit;
+  border-radius: 0;
+  padding: 0;
+  border-width: 0;
+}
+
+.addSpace {
+  margin-right: 30px;
 }
 
 .contact_btn {
   display: inline-flex;
   height: 50%;
   align-items: center;
-  width: 35%;
+  width: 20%;
   justify-content: center;
   border-style: solid;
   border-color: #0F172A;
@@ -44,6 +68,10 @@
   transform: scale(0.95);
   background-color: #87cefa;
   transition: transform 0.2s ease-out, background-color;
+}
+
+.contact_btn:focus {
+  background-color: #87cefa;
 }
 @media screen and (max-width: 800px) {
   .navBar {

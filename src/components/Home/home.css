@@ -1,11 +1,15 @@
 .home__container {
   height: 100vh;
-  
-  display: grid;
-  grid-template-columns: repeat(2,50vw);
+  background-color: #5CBEF7;
+  /* display: grid;
+  grid-template-columns: repeat(2,50vw); */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
 }
 
-@keyframes fadeIn {
+@keyframes modal_animation_fadeIn {
   from {
     opacity: 0;
   }
@@ -14,13 +18,25 @@
   }
 }
 
-.intro__container {
-  /* background-color: blue; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+@keyframes logo_animation_fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
+
+@keyframes logo_animation_rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
 
 .logo__container {
   display: flex;
@@ -29,10 +45,30 @@
 }
 
 .logo {
-  animation: fadeIn 2s .5s backwards;
+  animation: logo_animation_rotate 2s linear infinite, logo_animation_fadeIn;
   animation-fill-mode: both;
-  width: 500px;
-  height: 504x;
-  margin-bottom: 250px;
+  width: 33%;
+  height: 60%;
+  margin-bottom: 100px;
+  
 }
-
+.modal {
+  position: absolute;  /* this will position the modal relative to the viewport */
+  top: 50%;         /* center the modal vertically */
+  left: 50%;        /* center the modal horizontally */
+  transform: translate(-50%, -50%); /* this offsets the modal so it's truly centered */
+  z-index: 1000;    /* this ensures the modal appears on top of the background */
+  height: 70%;
+  width: 50%;
+  /* any additional styling you want for the modal goes here */
+  padding: 20px;
+  background-color: rgba(177, 136, 93, 0.8); /* white background with some transparency so you can still see the image behind it */
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  animation: fadeIn 1s 1s both;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}

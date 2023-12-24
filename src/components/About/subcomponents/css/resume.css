@@ -1,0 +1,83 @@
+.resume__container {
+  display: grid;
+  grid-template-rows: 10vh 90vh;
+}
+
+.resume__container:hover {
+  transform: scale(1.01);
+  transition: transform 0.1s ease-in;
+}
+
+.get_resume_section {
+  position: relative;
+}
+
+.get_resume_text {
+  position: absolute;
+  top: 135px;
+  left: 600px;
+  font-size: 2rem;
+  display: inline-block;
+  width: 200px;
+  animation: fadeIn 1s 1s backwards
+  
+}
+
+.resumeHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume__body {
+  display: grid;
+  grid-template-columns: repeat(2, 50vw);
+}
+
+.resume__body > div {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.person_pointing_resume {
+  display: inline-block;
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
+.bubbleText {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 500px;
+  top: -20px;
+  animation: fadeIn 1s 1s backwards;
+  display: inline;
+  font-weight: 0;
+  
+}
+
+.show_resume_section {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.resume_image {
+  position: absolute;
+  object-fit: cover;
+  display: block;
+  height: 70%;
+}
+.resume_image:hover {
+  transform: scale(1.01);
+}
+.resume_image[data-isactive='true'] {
+  animation: fadeInUp 2s backwards;
+  opacity: 1;
+}
+.resume_image[data-isactive='false'] {
+  opacity: 0;
+  animation: fadeOutDown 2s none;
+}

@@ -1,29 +1,17 @@
 .fact__container {
-  display: grid;
-  grid-template-columns: repeat(2, 50vw);
-}
-
-.fun_fact_texts_section {
-  /* background-color: greenyellow ; */
   display: flex;
-  flex-direction: column;
+  grid-template-columns: repeat(2, 50vw); 
   align-items: center;
+  flex-direction: column;
 }
 
-.fun_fact_images_section {
-  display: flex;
-  flex-direction: column;
-  overflow-y: scroll; 
+.fact__container:hover {
+  transform: scale(1.05);
+  transition: transform 0.1s ease-in;
 }
 
 .fun_fact_texts {
   line-height: 50px;
-  width: 50%;
+  width: 30%;
   font-size: 1.2rem;
-}
-.fun_fact_img {
-  width: 25%;
-  height: 30%;
-  margin-top: 2rem;
-  
 }

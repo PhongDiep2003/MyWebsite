@@ -11,7 +11,7 @@
   animation-fill-mode: both;
   font-size: 5rem;
   font-weight: 800;
-  color: var(--color-heading);
+  color: white;
 }
 
 .greeting__letter._1 {
@@ -218,7 +218,7 @@
   animation: fadeIn ease-in-out;
   animation-fill-mode: both;
   font-size: 1.5rem;
-  color: var(--color-body);
+  color: white;
 }
 
 .text__container {
